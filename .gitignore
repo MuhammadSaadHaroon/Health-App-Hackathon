@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Environment variables - SECRET, don't upload!
+.env
+Backend/.env
+Frontend/.env
+
+# Expo
+Frontend/.expo/
+Frontend/dist/
+
+# Logs
+*.log
+npm-debug.*
+
+# Mac
+.DS_Store
